@@ -1,0 +1,20 @@
+{
+  "name": "ahamd-prompt-engine",
+  "version": "1.0.0",
+  "description": "From Idea to Prompt. Turns rough requests into structured, copy-ready AI prompts.",
+  "private": true,
+  "author": "Ahamd Murad",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "mcp": "node src/mcp.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jsdom": "^24.1.0"
+  }
+}
